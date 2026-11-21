@@ -14,4 +14,4 @@ Name the Lambda function from your screenshot. Why did Chalice create this funct
 
 **Your answer:**
 
-...
+book-analyzer-dev is the lambda function used for this API call. Chalice created this function since it's based on an API call, unlike the Lab07 function, which ran based on an S3 upload event. Separate functions are necessary since each event comes with different paramaters (ie: author for the API call), so Chalice deploys each handler separately.
